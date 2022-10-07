@@ -13,6 +13,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600,700,900&display=swap');
 @import url('http://fonts.cdnfonts.com/css/chau-philomene-one');
 @import url('http://fonts.cdnfonts.com/css/poppins');
+@import url(https://allfont.net/allfont.css?fonts=clear-sans);
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -437,6 +438,7 @@ ul.btn li {
 ul.btn li a {
      color: #fff;
      font-size: 16px;
+     
 }
 
 ul.btn li:last-child {
@@ -444,9 +446,8 @@ ul.btn li:last-child {
 }
 
 ul.btn input{
-    
     border: 0;
-    margin-right: 60px;
+    margin-right: 300px;
     border-bottom: 1px solid rgb(255, 255, 255);
     background-color: transparent;
     outline: none;
@@ -464,7 +465,10 @@ ul.btn i {
      margin-right: -46px;
 }
 
-
+ul.btn li a:hover {
+     color: #6A0507;
+     font-weight: bold;
+ }
 
 .down_btn {
      padding-left: 50px;
@@ -524,19 +528,8 @@ ul.btn i {
      width: 35%;
 }
 
-.logo input {
-    border: 0;
-    display: inline-block;
-    margin-right: 60px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    background-color: transparent;
-    outline: none;
-    min-width: 300px;
-    font-size: 16px;
-    transition: all .3s ease-out;
-    border-radius: 0;
 
-}
+
 
 /** banner section **/
 
@@ -569,11 +562,13 @@ ul.btn i {
      left: 17%;
 }
 
+
+
 .text-bg p {
+     display: block;
      font-size: 17px;
      font-family: 'DM Sans', sans-serif;
      text-align: justify;
-     display: block;
      color: #ececec;
      line-height: 25px;
      padding-bottom: 50px;
@@ -595,8 +590,7 @@ ul.btn i {
 .images_box figure img {
      display: flex;
      border-radius: 2%;
-     width: 850px;
-     height: 350px;
+     box-shadow:  0 10px 3em 0 rgb(14, 14, 15);
 }
 
 .carousel-indicators li {
@@ -670,48 +664,176 @@ ul.btn i {
      transition: ease-in all 0.5s;
 }
 
+/** SESSÃO FORM DEFEITOS**/
 
-/** about section **/
+.form-defect {
+     background-color: #AF3434;
+     padding: 25px 0 200px 0;
+ }
 
-.about {
-     background: #962123;
-     padding: 90px 0;
+.container-form{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 20px;
 }
 
-.about .titlepage {
+ .content-form{
+     display: flex;
+     background-color: #ECECEC;
+     margin-top: 30px;
+     width: 800px;
+     height: 400px;
+     padding: 40px 15px;
+     padding-top: 10px;
+     border-radius: 3%;
+     box-shadow: 6px 3px 1px 0px rgb(215 242 255 / 75%);
+ }
+
+ .form-defeito{
+     position: relative;
+     padding: 10px 10px;
+     margin-bottom: 20px;
+ }
+
+ .form-defeito input {
+     margin-top: 1px;
+     background-color: #fff;
+     box-shadow: 0 0 0 0;
+     outline: 0;
+     color: #000000;
+     border: 0px;
+     min-width: 307px;
+     min-height: 66px;
+     z-index: 1;
+     font-size: 19px;
+     border-radius: 13px;
+     margin-bottom: 10px;
+ }
+
+ .form-defeito input::placeholder {
+     color: black;
+     opacity: 0.5;
+     text-align: left ;
+}
+ 
+.form-defeito textarea {
+     margin-top: 10px;
+     background-color: #fff;
+     box-shadow: 0 0 0 0;
+     outline: 0;
+     color: #000000;
+     border: 0px;
+     min-width: 300px;
+     min-height: 66px;
+     z-index: 1;
+     font-size: 19px;
+     border-radius: 13px;
+     margin-bottom: 10px;
+     height: 140px;
+ }
+
+ .titulo-defeito label{
+     font-size: 15px;
+     color: rgb(8, 8, 8);
+ }
+
+ .desc-defeito label{
+     font-size: 15px;
+     color: rgb(8, 8, 8);
+ }
+
+ .desc-defeito textarea::placeholder{
      text-align: left;
-     padding: 0;
-     max-width: 669px;
-     width: 100%;
-     float: left;
+     color: black;
+     opacity: 0.5;
+ }
+
+.enviar button{ 
+    display:block;
+    background: #939393;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 420px;
+    padding: 13px;
+    border: none;
+    width: 30%;
+    border-radius: 40px;
 }
 
-.about .titlepage h2 {
-     margin-bottom: 40px;
-}
-
-.about .titlepage p {
-     color: #010a05;
-     font-size: 17px;
-     line-height: 35px;
-     font-weight: 400;
-     padding-bottom: 50px;
-}
-
-.about .titlepage .read_more {
-     float: right;
-}
-
-.about_img figure {
-     margin: 0;
-}
-
-.about_img figure img {
-     width: 100%;
+.enviar button:hover{
+     background: rgb(63, 63, 63);
 }
 
 
-/** end about section **/
+#picture__input {
+     display: none;
+   }
+   
+   .picture {
+     
+     width: 400px;
+     aspect-ratio: 16/9;
+     background: #ddd;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #aaa;
+     border: 2px dashed currentcolor;
+     cursor: pointer;
+     margin-top: -340px;
+     margin-left: 340px;
+     border-radius: 5%;
+     font-family: sans-serif;
+     transition: color 300ms ease-in-out, background 300ms ease-in-out;
+     outline: none;
+     overflow: hidden;
+   }
+   
+   .picture:hover {
+     color: #777;
+     background: #ccc;
+   }
+   
+   .picture:active {
+     border-color: turquoise;
+     color: turquoise;
+     background: #eee;
+   }
+   
+   .picture:focus {
+     color: #777;
+     background: #ccc;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   }
+   
+   .picture__img {
+     max-width: 100%;
+   }
+   
+
+
+
+
+
+/** SESSÃO NOTÍCIAS **/
+
+.py-5,
+.pb-5{
+     background-color: #962123;
+}
+
+.mb-3{
+     color: white;
+     font-family: 'Clear Sans', arial;
+}
+ 
+.pt-5, .py-5 {
+     padding-top: -54px;
+ }
+
+
+/** fim notícias **/
 
 
 /** choose  section **/
@@ -913,9 +1035,10 @@ ul.easy li a:hover {
 /** footer **/
 
 .footer {
-     background: #212120;
+     background-image: linear-gradient(to bottom, #575757 0, #575757 85%,  #535353 30%);
      padding-top: 85px;
      text-align: center;
+     height:640px;
 }
 
 .footer .titlepage {
@@ -928,18 +1051,36 @@ ul.easy li a:hover {
 }
 
 .footer .address h3 {
-     color: #fff;
-     font-size: 30px;
+     font-family: 'Poppins', sans-serif;
+     color: #424242;
+     font-size: 20px;
+     font-weight: bold;
      line-height: 35px;
      font-weight: 500;
+     top: -50px;
      padding-bottom: 20px;
      text-align: left;
+
+}
+
+.footer .address li {
+     font-family: 'Clear Sans', arial;
+     text-align: justify;
+     color: #303030;
+     font-size: 20px;
+     margin-top: -50px;
+     text-align: left;
+     padding-right: 10px;
 }
 
 ul.location_icon li {
-     font-size: 17px;
+     font-family: 'Clear Sans', arial;
      text-align: left;
-     padding-right: 40px;
+     color: #303030;
+     font-size: 17px;
+     margin-top: -50px;
+     text-align: left;
+     padding-right: 10px;
 }
 
 ul.Menu_footer li {
@@ -972,14 +1113,14 @@ ul.Menu_footer li a:hover {
 }
 
 ul.social_icon li {
-     display: block;
+     display: flex;
+     text-align: justify;
      padding-bottom: 11px;
 }
 
 ul.social_icon li a {
      font-size: 18px;
      color: #fff;
-     display: inherit;
 }
 
 ul.social_icon li a:hover {
@@ -987,41 +1128,39 @@ ul.social_icon li a:hover {
 }
 
 ul.social_icon li a i {
-     background: #fff;
+     background: #424242;
      width: 37px;
      height: 37px;
      display: flex;
      align-items: center;
-     justify-content: center;
+     justify-content: space-around;
+     margin-right: 10px;
+     margin-top: -20px;
      font-size: 22px;
      border-radius: 30px;
-     color: #000;
-     margin-top: -33px;
+     color: #575757;
+    
 }
 
 ul.social_icon li a i:hover {
      color: #0eadef;
 }
 
-.bottom_form h3 {
-     font-weight: 600;
-     font-size: 20px;
-     text-align: left;
-     color: #fff;
-     padding-bottom: 15px;
+.copyright {
+     display: flex;
+     background-color: #535353; 
 }
 
-.bottom_form .enter {
-     border: inherit;
-     padding: 0px 19px;
-     width: 100%;
-     height: 53px;
-     background: #fff;
-     color: #828282;
-     font-size: 17px;
-     border-radius: 10px;
-     margin-bottom: 25px;
+.copyright center{
+     margin-top: -55px;
+     font-size: 14px;
+     color: #fff;
 }
+
+.copyright img{
+   margin-top: -169px;
+}
+
 
 .sub_btn {
      font-size: 19px;
@@ -1044,28 +1183,7 @@ ul.social_icon li a i:hover {
      color: #fff;
 }
 
-.copyright {
-     margin-top: 85px;
-     padding: 25px 0;
-     background: #0192c8;
-}
 
-.copyright p {
-     color: #fff;
-     font-size: 17px;
-     line-height: 22px;
-     text-align: center;
-     font-weight: normal;
-}
-
-.copyright a {
-     color: #fff;
-}
-
-.copyright a:hover {
-     color: #212120;
-}
 
 
 /** end footer **/
-
