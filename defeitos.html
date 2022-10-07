@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Elementos Principais -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Adequação Site -->
+      <title>Governo do Estado de São Paulo</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Adequação Mobile -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- Bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsividade-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div class="wrapper">
+      <!-- end loader -->
+      <div class="sidebar">
+         <!-- Sidebar  -->
+         <nav id="sidebar">
+            <div id="dismiss">
+               <i class="fa fa-arrow-left"></i>
+            </div>
+            <ul class="list-unstyled components">
+               <li class="active"> <a href="#">Home</a> </li>
+               <li><a href="#about">About </a> </li>
+               <li><a href="#work">Work</a> </li>
+               <li><a href="#contact">Contact </a> </li>
+            </ul>
+         </nav>
+      </div>
+      <div id="content">
+         <!-- header -->
+         <header>
+            <!-- header inner -->
+            <div class="header">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                 <button type="button" id="sidebarCollapse">
+                                    <img src="images/menu_icon.png" alt="#" />
+                                 </button>
+                                 <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <ul class="btn">
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                           <li><input type="text" maxlength="100" placeholder="Pesquise aqui"></li>
+                           <li><a href="index.html">Inicio</a></li>
+                           <li><a href="sobre.html">Sobre</a></li>
+                           <li><a href="contato.html">Contato</a></li>
+                           <li><a href="cursos.html">Cursos</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- end header inner -->
+         <!-- end header -->
+
+         <!-- Formulário Defeitos -->
+         <section class="form-defect">
+            <div class="container-form">
+                  <div class="content-form">
+                     <div class="form-defeito">   
+                         <h2> Formulário Defeitos</h2>
+                              <div class="titulo-defeito">
+                                 <label>Título do Defeito:</label>
+                                 <input class="form-titulo" type="text" maxlength="40" placeholder="Digite aqui" style="text-align: center" required><br>
+                              </div>
+                              
+                              
+                              <div class="desc-defeito">
+                                 <label> Dê uma descrição sobre o defeito: </label><br>
+                                 <textarea rows="10" name="msg" required placeholder="Digite aqui"></textarea>
+                              </div>
+                              <div> 
+                              <label class="picture" for="picture__input" tabIndex="0">
+                                 <span class="picture__image"></span>
+                              </label>
+         
+                               <input type="file" name="picture__input" id="picture__input">
+                              </div>
+                               <div class="enviar"> 
+                                 <button type="button" id="btnEntrar" onclick="login()"><a>ENVIAR </a></button>
+                              
+                              </div>
+                         </div>
+                   </div>
+              </div>
+         </section>
+         </div>
+         <!-- end banner -->
+         <!-- Notícias  -->
+         <section class="pt-5 pb-5">
+            
+        </section>
+
+        <section class="pt-5 pb-5">
+         
+     </section>
+        <!-- fim das noticias -->
+         
+         <!--  rodapé -->
+         <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-8 col-sm-6">
+                              <div class="address">
+                                 <h3><i class="fa fa-info-circle"></i> Informações</h3>
+                              </div>
+                              <ul class="location_icon">
+                                 <li>Faculdade de Tecnologia da Zona Leste:<br>
+                                    &bull; Avenida Águia de Haia, 2983. Cidade A.E. Carvalho, CEP 03694-0000, São Paulo-SP.</li>
+                              </ul>
+                           </div>
+                           
+                        </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-5 col-sm-6">
+                              <div class="address">
+                                 <li>Siga-nos nas redes sociais, para obter
+                                    mais informações sobre nossa instituição:</li><br>
+                              </div>
+                              <ul class="social_icon">
+                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                              </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <center><img class="img-footer" src="images/footer-governo.png" alt=""></center>
+                  <div class="row">
+                     <div class="col-md-12">
+                        
+                        <p><center>© Fatec Zona Leste 2022</center></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- fim do rodapé -->
+      </div>
+      <div class="overlay"></div>
+      <!-- Códigos Javascript -->
+
+         <!-- Implementação Firebase -->
+         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-auth.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-analytics.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-database.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-storage.js"></script>
+         <script type="module">
+        
+         // TODO: Add SDKs for Firebase products that you want to use
+         // https://firebase.google.com/docs/web/setup#available-libraries
+       
+         // Your web app's Firebase configuration
+         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+         const firebaseConfig = {
+           apiKey: "AIzaSyBafj-cya-CQE3sw_4_6uDux4J2HmaqHDk",
+           authDomain: "app-defeitos.firebaseapp.com",
+           projectId: "app-defeitos",
+           storageBucket: "app-defeitos.appspot.com",
+           messagingSenderId: "858460114271",
+           appId: "1:858460114271:web:f137aa9975f36fd76cfaea",
+           measurementId: "G-CZS7LC9FB7"
+         };
+         // Initialize Firebase
+         const app = initializeApp(firebaseConfig);
+         const analytics = getAnalytics(app);
+       </script>
+
+      <script src="js/upload-img.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+
+      <script type="text/javascript">
+         $(document).ready(function() {
+             $("#sidebar").mCustomScrollbar({
+                 theme: "minimal"
+             });
+
+             $('#dismiss, .overlay').on('click', function() {
+                 $('#sidebar').removeClass('active');
+                 $('.overlay').removeClass('active');
+             });
+         
+             $('#sidebarCollapse').on('click', function() {
+                 $('#sidebar').addClass('active');
+                 $('.overlay').addClass('active');
+                 $('.collapse.in').toggleClass('in');
+                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+             });
+         });
+      </script>
+      <script>
+         $(document).ready(function() {
+             $(".fancybox").fancybox({
+                 openEffect: "none",
+                 closeEffect: "none"
+             });
+         
+             $(".zoom").hover(function() {
+         
+                 $(this).addClass('transition');
+             }, function() {
+         
+                 $(this).removeClass('transition');
+             });
+         });
+      </script>
+
+      <!-- google map js -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js -->
+   </body>
+</html>
