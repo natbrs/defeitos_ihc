@@ -711,6 +711,7 @@ pre code {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
+
 }
 
 .order-first {
@@ -7632,19 +7633,21 @@ button.bg-dark:focus {
   padding: 3rem !important;
 }
 
-.pt-5,
-.py-5 {
-  padding-top: 3rem !important;
-}
-
 .pr-5,
 .px-5 {
-  padding-right: 3rem !important;
+  padding-right: 1rem !important;
 }
+
 
 .pb-5,
 .py-5 {
   padding-bottom: 3rem !important;
+  background-color: #962123;
+}
+
+.pt-5,
+.pb-5 {
+  background-color: #962123 !important;
 }
 
 .pl-5,
