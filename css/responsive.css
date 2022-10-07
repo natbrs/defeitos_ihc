@@ -69,6 +69,79 @@
     }
 }
 
+@media (min-width: 992px){
+.noti-content {
+    max-width: 960px;
+}
+}
+
+
+@media (min-width: 594px){
+    .footer {
+        background-image: linear-gradient(to bottom, #575757 0, #575757 68%,  #535353 30%);    
+   }
+
+   .footer .address li  {
+    font-family: 'Clear Sans', arial;
+    text-align: justify;
+    color: #303030;
+    font-size: 17px;
+    margin-top: -1px;
+ 
+   }
+}
+
+@media (min-width: 994px){
+    .footer {
+        background-image: linear-gradient(to bottom, #575757 0, #575757 45%,  #535353 30%);    
+    }
+    .footer .address li  {
+    font-family: 'Clear Sans', arial;
+    text-align: justify;
+    color: #303030;
+    font-size: 17px;
+    margin-top: -50px;
+     
+    }
+}
+
+
+@media (max-width: 1498px){
+    ul.btn input{ 
+    border: 0;
+    margin-right: -10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    outline: none;
+    min-width: 300px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    }
+}
+
+@media (max-width: 1155px){
+    ul.btn input{ 
+    margin-top: 60px;
+    
+    }
+}
+
+@media (min-width: 980px){
+    input{ 
+    margin-right:400px;
+    
+    }
+}
+
+@media (min-width: 950px){
+   ul.btn input{ 
+    padding-right:-300px;
+    
+    }
+}
+
+
 @media (max-width: 575px) {
     .header {
         padding: 30px 0px 15px 0px;
