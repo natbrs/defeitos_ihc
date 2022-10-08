@@ -1,535 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- Elementos Principais -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- Adequação Site -->
-      <title>Governo do Estado de São Paulo</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- Adequação Mobile -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- Bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsividade-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
-      <!-- end loader -->
-      <div class="wrapper">
-      <!-- end loader -->
-      <div class="sidebar">
-         <!-- Sidebar  -->
-         <nav id="sidebar">
-            <div id="dismiss">
-               <i class="fa fa-arrow-left"></i>
-            </div>
-            <ul class="list-unstyled components">
-               <li class="active"> <a href="#">Home</a> </li>
-               <li><a href="#about">About </a> </li>
-               <li><a href="#work">Work</a> </li>
-               <li><a href="#contact">Contact </a> </li>
-            </ul>
-         </nav>
-      </div>
-      <div id="content">
-         <!-- header -->
-         <header>
-            <!-- header inner -->
-            <div class="header">
-               <div class="container-fluid">
-                  <div class="row">
-                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                        <div class="full">
-                           <div class="center-desk">
-                              <div class="logo">
-                                 <button type="button" id="sidebarCollapse">
-                                    <img src="images/menu_icon.png" alt="#" />
-                                 </button>
-                                 <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                        <ul class="btn">
-                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                           <li><input type="text" maxlength="100" placeholder="Pesquise aqui"></li>
-                           <li><a href="index.html">Inicio</a></li>
-                           <li><a href="sobre.html">Sobre</a></li>
-                           <li><a href="contato.html">Contato</a></li>
-                           <li><a href="cursos.html">Cursos</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </header>
-         <!-- end header inner -->
-         <!-- end header -->
-         <!-- banner -->
-         <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-               <li data-target="#myCarousel" data-slide-to="1"></li>
-               <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container-fluid">
-                     <div class="carousel-caption">
+<head>
+    <!-- Elementos Principais -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Adequação Site -->
+    <title>Governo do Estado de São Paulo</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Adequação Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsividade-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+
+</head>
+<!-- body -->
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <div class="wrapper">
+        <!-- end loader -->
+        <div class="sidebar">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div id="dismiss">
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+                <ul class="list-unstyled components">
+                    <li class="active"> <a href="#">Home</a> </li>
+                    <li><a href="#about">About </a> </li>
+                    <li><a href="#work">Work</a> </li>
+                    <li><a href="#contact">Contact </a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="content">
+            <!-- header -->
+            <header>
+                <!-- header inner -->
+                <div class="header">
+                    <div class="container-fluid">
                         <div class="row">
-                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                              <div class="text-bg">
-                                 <h1>FATEC ZL</h1>
-                                 <h2>2O ANOS DE HISTÓRIA!!</h2>
-                                 <p>A Faculdade de Tecnologia da Zona Leste, está completando seus 20 anos. Temos orgulho em anunciar e comemorar, sua tão fabulosa história!</p>
-                              </div>
-                           </div>
-                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                              <div class="images_box">
-                                 <figure><img src="images/fatec-carrossel-20anos.png"></figure>
-                              </div>
-                           </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                                <div class="full">
+                                    <div class="center-desk">
+                                        <div class="logo">
+                                            <button type="button" id="sidebarCollapse">
+                                                <img src="images/menu_icon.png" alt="#" />
+                                            </button>
+                                            <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                                <ul class="btn">
+                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                    <li><input type="text" maxlength="100" placeholder="Pesquise aqui"></li>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="sobre.html">Sobre</a></li>
+                                    <li><a href="contato.html">Contato</a></li>
+                                    <li><a href="defeitos.html">Defeitos</a></li>
+                                </ul>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container-fluid ">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                              <div class="text-bg">
-                                 <h1>FATEC ZL</h1>
-                                 <h2>2O ANOS DE HISTÓRIA!!</h2>
-                                 <p>A Faculdade de Tecnologia da Zona Leste, está completando seus 20 anos. Temos orgulho em anunciar e comemorar, sua tão fabulosa história!</p>
-                              </div>
-                           </div>
-                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                              <div class="images_box">
-                                 <figure><img src="images/fatec-carrossel-20anos.png"></figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container-fluid">
-                     <div class="carousel-caption ">
-                        <div class="row">
-                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                              <div class="text-bg">
-                                 <h1>FATEC ZL</h1>
-                                 <h2>2O ANOS DE HISTÓRIA!!</h2>
-                                 <p>A Faculdade de Tecnologia da Zona Leste, está completando seus 20 anos. Temos orgulho em anunciar e comemorar, sua tão fabulosa história!</p>
-                              </div>
-                           </div>
-                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                              <div class="images_box">
-                                 <figure><img src="images/fatec-carrossel-20anos.png"></figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
-         </div>
-         <!-- end banner -->
-         <!-- Notícias  -->
-         <section class="pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h3 class="mb-3">Notícias</h3>
                     </div>
-                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        
-                                                </div>
-        
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        
-                                                </div>
-                                            </div>
-                                        </div>
+                </div>
+            </header>
+            <!-- end header inner -->
+            <!-- end header -->
+            <h1>Sobre a FATEC-ZL</h1>
+            <main>
+                <div class="sobreInfo"> 
+                    <img src="images/university.png"
+                        alt="desenho de uma universidade, com uma plaquinha escrito university " width="20%">
+                    <div class="caixaInfo">
+                        <p>Somos uma instituição pública de ensino superior, localizada no município de São Paulo, no
+                            bairro
+                            Cidade Antônio Estêvão de Carvalho.</p>
+                        <p>Somos mantidos pelo Governo do Estado de São Paulo, por meio do CEETEPS. </p>
+                    </div>
+                </div>
+                <div class="sobre-maps"> 
+                    <a href="https://www.google.com/maps/place/FATEC+Zona+Leste/@-23.5215188,-46.4765357,15z/data=!4m5!3m4!1s0x0:0xddc2deca4778eb69!8m2!3d-23.5215188!4d-46.4765357" target="_blank" rel="noopener noreferrer"><button type="button" id="btnEntrar" onclick="login()">Abrir o Maps</button></a>
+                 </div>
+            </main>
+            <!-- Formulário Defeitos -->
+            <section class="fundo-sobre">
+
+            </section>
+        </div>
+        <!-- fim do defeitos -->
+        <section class="pt-5 pb-5"></section>
+        <!--  rodapé -->
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-6">
+                                    <div class="address">
+                                        <h3><i class="fa fa-info-circle"></i> Informações</h3>
                                     </div>
+                                    <ul class="location_icon">
+                                        <li>Faculdade de Tecnologia da Zona Leste:<br>
+                                            &bull; Avenida Águia de Haia, 2983. Cidade A.E. Carvalho, CEP 03694-0000,
+                                            São Paulo-SP.</li>
+                                    </ul>
                                 </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-        
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="row">
+                                <div class="col-md-5 col-sm-6">
+                                    <div class="address">
+                                        <li>Siga-nos nas redes sociais, para obter
+                                            mais informações sobre nossa instituição:</li><br>
                                     </div>
-                                </div>
-                        
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        
-                                                </div>
-        
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <div class="card">
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Special title treatment</h4>
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <ul class="social_icon">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <center><img class="img-footer" src="images/footer-governo.png" alt=""></center>
+            <div class="row">
+                <div class="col-md-12">
 
-        <section class="pt-5 pb-5">
-         <div class="container">
-             <div class="row">
-                 <div class="col-6">
-                  <h3 class="mb-3">Cursos</h3>
-                 </div>
-                     <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                         <div class="carousel-inner">
-                             <div class="carousel-item active">
-                                 <div class="row">
-     
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-     
-                                             </div>
-     
-                                         </div>
-                                     </div>
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-     
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-     
-                                             </div>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="carousel-item">
-                                 <div class="row">
-     
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-     
-                                             </div>
-     
-                                         </div>
-                                     </div>
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-     
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-     
-                                             </div>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="carousel-item">
-                                 <div class="row">
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-     
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <div class="col-md-4 mb-3">
-                                         <div class="card">
-                                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
-                                             <div class="card-body">
-                                                 <h4 class="card-title">Special title treatment</h4>
-                                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                             </div>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section>
-        <!-- fim das noticias -->
-         
-         <!--  rodapé -->
-         <footer>
-            <div class="footer">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div class="row">
-                           <div class="col-md-8 col-sm-6">
-                              <div class="address">
-                                 <h3><i class="fa fa-info-circle"></i> Informações</h3>
-                              </div>
-                              <ul class="location_icon">
-                                 <li>Faculdade de Tecnologia da Zona Leste:<br>
-                                    &bull; Avenida Águia de Haia, 2983. Cidade A.E. Carvalho, CEP 03694-0000, São Paulo-SP.</li>
-                              </ul>
-                           </div>
-                           
-                        </div>
-                     </div>
-                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div class="row">
-                           <div class="col-md-5 col-sm-6">
-                              <div class="address">
-                                 <li>Siga-nos nas redes sociais, para obter
-                                    mais informações sobre nossa instituição:</li><br>
-                              </div>
-                              <ul class="social_icon">
-                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                 <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                              </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                    <p>
+                        <center>© Fatec Zona Leste 2022</center>
+                    </p>
+                </div>
             </div>
-            <div class="copyright">
-               <div class="container">
-                  <center><img class="img-footer" src="images/footer-governo.png" alt=""></center>
-                  <div class="row">
-                     <div class="col-md-12">
-                        
-                        <p><center>© Fatec Zona Leste 2022</center></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <!-- fim do rodapé -->
-      </div>
-      <div class="overlay"></div>
-      <!-- Códigos Javascript -->
+        </div>
+    </div>
+    </footer>
+    <!-- fim do rodapé -->
+    </div>
+    <div class="overlay"></div>
+    <!-- Códigos Javascript -->
 
-         <!-- Implementação Firebase -->
-         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js"></script>
-         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-auth.js"></script>
-         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.js"></script>
-         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-analytics.js"></script>
-         <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-database.js"></script>
-         <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-storage.js"></script>
-         <script type="module">
-        
-         // TODO: Add SDKs for Firebase products that you want to use
-         // https://firebase.google.com/docs/web/setup#available-libraries
-       
-         // Your web app's Firebase configuration
-         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-         const firebaseConfig = {
-           apiKey: "AIzaSyBafj-cya-CQE3sw_4_6uDux4J2HmaqHDk",
-           authDomain: "app-defeitos.firebaseapp.com",
-           projectId: "app-defeitos",
-           storageBucket: "app-defeitos.appspot.com",
-           messagingSenderId: "858460114271",
-           appId: "1:858460114271:web:f137aa9975f36fd76cfaea",
-           measurementId: "G-CZS7LC9FB7"
-         };
-         // Initialize Firebase
-         const app = initializeApp(firebaseConfig);
-         const analytics = getAnalytics(app);
-       </script>
+    <!-- Implementação Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-storage.js"></script>
+    <script type="module">
 
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
 
-      <script type="text/javascript">
-         $(document).ready(function() {
-             $("#sidebar").mCustomScrollbar({
-                 theme: "minimal"
-             });
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyBafj-cya-CQE3sw_4_6uDux4J2HmaqHDk",
+            authDomain: "app-defeitos.firebaseapp.com",
+            projectId: "app-defeitos",
+            storageBucket: "app-defeitos.appspot.com",
+            messagingSenderId: "858460114271",
+            appId: "1:858460114271:web:f137aa9975f36fd76cfaea",
+            measurementId: "G-CZS7LC9FB7"
+        };
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 
-             $('#dismiss, .overlay').on('click', function() {
-                 $('#sidebar').removeClass('active');
-                 $('.overlay').removeClass('active');
-             });
-         
-             $('#sidebarCollapse').on('click', function() {
-                 $('#sidebar').addClass('active');
-                 $('.overlay').addClass('active');
-                 $('.collapse.in').toggleClass('in');
-                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-             });
-         });
-      </script>
-      <script>
-         $(document).ready(function() {
-             $(".fancybox").fancybox({
-                 openEffect: "none",
-                 closeEffect: "none"
-             });
-         
-             $(".zoom").hover(function() {
-         
-                 $(this).addClass('transition');
-             }, function() {
-         
-                 $(this).removeClass('transition');
-             });
-         });
-      </script>
+    <script src="js/upload-img.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
 
-      <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-      <!-- end google map js -->
-   </body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".fancybox").fancybox({
+                openEffect: "none",
+                closeEffect: "none"
+            });
+
+            $(".zoom").hover(function () {
+
+                $(this).addClass('transition');
+            }, function () {
+
+                $(this).removeClass('transition');
+            });
+        });
+    </script>
+
+    <!-- google map js -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+    <!-- end google map js -->
+</body>
+
 </html>
