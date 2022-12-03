@@ -440,6 +440,7 @@ ul.btn {
      margin-right: 150px;
 }
 
+
 ul.btn li {
      display: inline-block;
      padding: 0 25px;
@@ -447,7 +448,7 @@ ul.btn li {
 }
 
 ul.btn li a {
-     color: #fff;
+     color: rgb(182, 18, 18);
      font-size: 16px;
      
 }
@@ -459,7 +460,7 @@ ul.btn li:last-child {
 ul.btn input{
     border: 0;
     margin-right: 300px;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(184, 28, 28);
     background-color: transparent;
     outline: none;
     min-width: 300px;
@@ -470,15 +471,18 @@ ul.btn input{
 
 ul.btn input,::placeholder{
      font-family: 'DM Sans', sans-serif;
-     color: #ececec;
+     color: #8d3737;
 }
 ul.btn i {
      margin-right: -46px;
 }
 
 ul.btn li a:hover {
-     color: #6A0507;
+     color: #ffffff;
      font-weight: bold;
+     background-color: #af3434;
+     border-radius: 15px;
+     padding: 20px;
  }
 
 .down_btn {
@@ -486,7 +490,7 @@ ul.btn li a:hover {
 }
 
 .down_btn a {
-     background-color: #fff;
+     background-color: rgb(130, 48, 48);
      display: inline-block;
      padding: 7px 35px;
      border-radius: 10px;
@@ -497,6 +501,10 @@ ul.btn li a:hover {
 .down_btn a:hover {
      color: #fff !important;
      background: #000;
+}
+
+.sidebarCollapse img {
+     background-color: red;
 }
 
 
@@ -521,7 +529,7 @@ ul.btn li a:hover {
 
 .header {
      width: 100%;
-     background: #AF3434;
+     background: #fbfbfb;
      padding: 15px 10px;
      position: relative;
      z-index: 960;
@@ -533,6 +541,9 @@ ul.btn li a:hover {
      text-transform: uppercase;
      color: #fff;
      line-height: 40px;
+     background-color: #af3434;
+     border-radius: 15px;
+     padding: 8px;
 }
 
 .logo img{
@@ -541,11 +552,10 @@ ul.btn li a:hover {
 
 
 
-
 /** banner section **/
 
 .banner_main {
-     background: #AF3434;
+     background: #fbfbfb;
      padding: 15px 0 200px 0;
 }
 
@@ -558,8 +568,8 @@ ul.btn li a:hover {
 }
 
 .text-bg h1 {
-     color: #fff;
-     font-family:'Poppins', sans-serif;
+     color: #b73434;
+     font-family: 'Poppins', sans-serif;
      font-size: 71px;
      line-height: 85px;
      padding-bottom: 25px;
@@ -580,7 +590,7 @@ ul.btn li a:hover {
      font-size: 17px;
      font-family: 'DM Sans', sans-serif;
      text-align: justify;
-     color: #ececec;
+     color: #333232;
      line-height: 25px;
      padding-bottom: 50px;
      font-weight: 500;
@@ -820,6 +830,10 @@ ul.btn li a:hover {
      background: #ccc;
    }
    
+ .card {
+     background-color: #af3434;
+ }
+
    .picture:active {
      border-color: turquoise;
      color: turquoise;
@@ -845,14 +859,22 @@ ul.btn li a:hover {
 
 .py-5,
 .pb-5{
-     background-color: #962123;
+     background-color: #fbfbfb;
 }
 
 .mb-3{
-     color: white;
+     color: #6a0507;
      font-family: 'Clear Sans', arial;
 }
  
+
+.logo img {
+     background-color: #af3434;
+     padding: 2px;
+     border-radius: 50px;
+}
+
+
 .pt-5, .py-5 {
      padding-top: -54px;
  }
